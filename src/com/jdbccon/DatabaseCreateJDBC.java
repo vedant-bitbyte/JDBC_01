@@ -11,7 +11,7 @@ public class DatabaseCreateJDBC {
 		try {
 			String url = "jdbc:mysql://localhost:3306";
 			String username = "root";
-			String password = "Vedant 16";
+			String password = "";
 			
 			conn = DriverManager.getConnection(url, username, password);
 			

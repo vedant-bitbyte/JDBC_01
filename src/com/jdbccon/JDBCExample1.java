@@ -12,7 +12,7 @@ public class JDBCExample1 {
 			
 			String url = "jdbc:mysql://localhost:3306";
 			String username = "root";
-			String password = "Vedant 16";
+			String password = "";
 			
 			//FACTORY DESIGN PATTERN
 			//Connection is an interface. So from DriverManager class we are calling static getConnection().
